@@ -15,7 +15,7 @@ public class RecordDTO implements Serializable{
 	private String name;
 	private Integer age;
 	private String gameTitle;
-	private Platform gamePlataform;
+	private Platform gamePlatform;
 	private String genreName;
 	
 	
@@ -30,7 +30,7 @@ public class RecordDTO implements Serializable{
 		name = entity.getName();
 		age = entity.getAge();
 		gameTitle = entity.getGame().getTitle();
-		gamePlataform = entity.getGame().getPlatform();
+		gamePlatform = entity.getGame().getPlatform();
 		genreName = entity.getGame().getGenre().getName();
 	}
 
@@ -85,13 +85,13 @@ public class RecordDTO implements Serializable{
 	}
 
 
-	public Platform getGamePlataform() {
-		return gamePlataform;
+	public Platform getGamePlatform() {
+		return gamePlatform;
 	}
 
 
-	public void setGamePlataform(Platform gamePlataform) {
-		this.gamePlataform = gamePlataform;
+	public void setGamePlatform(Platform gamePlatform) {
+		this.gamePlatform = gamePlatform;
 	}
 
 
