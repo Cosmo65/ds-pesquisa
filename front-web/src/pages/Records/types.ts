@@ -13,7 +13,7 @@ export type RecordItem ={
     name: string,
     age: number,
     gameTitle: string,
-    gamePlataform: Platform,
+    gamePlatform: Platform,
     genreName: string
 }
 
